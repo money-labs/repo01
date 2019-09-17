@@ -6,8 +6,9 @@ var MYAPP = MYAPP || {};
 
 
 class SidebarViewModel {
-  buttonClick() {
-    alert("Hello ViewModel Git 2");
+  buttonClick()
+ {
+    readFiles();
   }
 }
 
