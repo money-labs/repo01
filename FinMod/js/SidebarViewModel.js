@@ -7,7 +7,7 @@ var MYAPP = MYAPP || {};
 
 class SidebarViewModel {
   buttonClick() {
-    alert("Hello ViewModel Git");
+    alert("Hello ViewModel Git 2");
   }
 }
 
