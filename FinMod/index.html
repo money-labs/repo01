@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>FinMod</title>
+    <meta name="description" content="My Site">
+    <meta name="author" content="Peter Selby">
+
+    <link rel="stylesheet" href="css/reset.css?v=1.0">
+    <link rel="stylesheet" href="css/page.css?v=1.0">
+
+</head>
+
+<body>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="js/SidebarViewModel.js"></script>
+    <script src="js/FileReader.js"></script>
+
+    <div class="wrapper">
+        <div class="box header">Header</div>    
+        <div class="box sidebar">
+                <button type="button" class="btn btn-light" value="ABC" onclick="sidebarViewModel.buttonClick();">Primary</button>
+                <?php
+                echo "Hello PHP";
+                ?>
+                    
+        </div>
+        <div class="box content">   
+            Content<br/> More content than we had before so this column is now quite tall.
+        </div>
+        <div class="box footer">Footer</div>
+    </div>
+
+
+  
+  </body>
+
+</body>
+
+</html>
